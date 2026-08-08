@@ -5,6 +5,9 @@ export const profile = {
   phone: "+212 6 39 67 28 08",
   email: "yahyamdarhri00@gmail.com",
   age: "26 y.o.",
+  photo: "",
+  pitch:
+    "I turn scattered spreadsheets, paperwork, and manual processes into structured data systems — and I run the project so it actually ships. Analysis with rigor, delivery with PMP® discipline.",
   summary:
     "PMP®-certified Data Scientist moving into project management, with 3 years of experience leading digital, data, and innovation projects within the Vice-Presidency for Research, Development, Innovation & Partnerships at the International University of Rabat. Combines hands-on expertise in data science, data engineering, and machine learning with a solid command of project management standards (PMP®, ongoing Master's in Project & Program Management) to scope, deliver, and deploy results-driven data solutions, coordinating technical teams and stakeholders up to the highest institutional level.",
 };
@@ -14,73 +17,6 @@ export const stats = [
   { value: "50k+", label: "Downloads on published Arabic NER model" },
   { value: "360+", label: "Researchers tracked via platform he built" },
   { value: "PMP®", label: "Certified Project Management Professional" },
-];
-
-export type Experience = {
-  role: string;
-  org: string;
-  period: string;
-  location: string;
-  bullets: { title: string; text: string }[];
-};
-
-export const experiences: Experience[] = [
-  {
-    role: "Digital Research & Development Engineer",
-    org: "International University of Rabat (UIR)",
-    period: "Dec. 2023 – Present",
-    location: "Rabat, Morocco · Vice-Presidency for Research, Development, Innovation & Partnerships",
-    bullets: [
-      {
-        title: "Research Intelligence Platform",
-        text: "End-to-end project lead (PMI/PMP standards). Faced with 360+ researchers tracked manually in scattered Excel files with no single source of truth, scoped the need, then designed and deployed a data solution as a full project lifecycle. The platform became the university's real-time single source of truth, now at the core of institutional communications and activity reports.",
-      },
-      {
-        title: "University Rankings Lead",
-        text: "To strengthen UIR's positioning in international rankings (THE, THE Impact, QS), led and coordinated stakeholders across the entire university to acquire, analyze, optimize, and submit ranking data, turning a fragmented process into a structured, repeatable submission cycle.",
-      },
-      {
-        title: '"Inn2Market" — Patent Ideation & Valorization',
-        text: "The patent ideation and valorization process relied on scattered paperwork and manual follow-up, making it hard to track ideas from submission to industrial uptake. Working with the Technology Transfer Office and industrial partners, led requirements gathering, planning, and delivery to move it from a paper-based process to a structured data system — a single, trackable pipeline from idea to market.",
-      },
-      {
-        title: "Strategic Research-Database Negotiations",
-        text: "Facing costly renewals for key databases (Scopus, ScienceDirect), led negotiations backed by usage-data analysis to inform renewal decisions and optimize institutional spending.",
-      },
-      {
-        title: '"Tamkeen for Cities" Labeling Program',
-        text: "The labeling of sustainable and innovative cities was run manually, slow to process and hard to compare across cities. In partnership with the Innovation & Entrepreneurship Center and the Ministry of the Interior, introduced a data-driven approach that structured evaluation criteria and evidence into a digital workflow — faster, more consistent, and scalable across cities.",
-      },
-      {
-        title: "Institutional Governance",
-        text: "Contributed to institutional governance as a member of the R&D ethics committee and the university's environmental committee.",
-      },
-    ],
-  },
-  {
-    role: "AI / ML Engineer (Remote)",
-    org: "Niloom (formerly abxr)",
-    period: "2023 · ~5 months",
-    location: "New York, USA (distributed team)",
-    bullets: [
-      {
-        title: "AI-Driven Content Generation for AR/VR",
-        text: "Led the development of an AI assistant that generates AR/VR scenes automatically, and built generative-AI capabilities to create 3D assets from scratch — core features of the startup's world-class AR/VR product, delivered within an internationally distributed engineering team.",
-      },
-    ],
-  },
-  {
-    role: "Business Intelligence Engineer",
-    org: "Sanlam Data Factory",
-    period: "2022",
-    location: "Casablanca, Morocco",
-    bullets: [
-      {
-        title: "Financial & Accounting Reporting",
-        text: "Designed and deployed financial and accounting dashboards in Tableau, transforming raw, unstructured data into decision-ready reporting used to support business monitoring.",
-      },
-    ],
-  },
 ];
 
 export type Project = {
@@ -142,99 +78,6 @@ export const projects: Project[] = [
   },
 ];
 
-export const skills = [
-  {
-    category: "Project & Program Management",
-    items: [
-      "PMI / PMP®",
-      "Agile (Scrum)",
-      "Scoping & requirements gathering",
-      "Planning, risk & budget management",
-      "Stakeholder management",
-      "Change management",
-      "Reporting & negotiation",
-    ],
-  },
-  {
-    category: "Data Science & Machine Learning",
-    items: [
-      "Python",
-      "Machine Learning",
-      "Deep Learning",
-      "NLP (NER)",
-      "Model design & training",
-      "Deployment",
-      "Exploratory & statistical analysis",
-    ],
-  },
-  {
-    category: "Data Engineering & BI",
-    items: [
-      "Data pipelines",
-      "Web scraping",
-      "SQL",
-      "ETL",
-      "Workflow automation",
-      "Business Intelligence",
-      "Data visualization",
-    ],
-  },
-  {
-    category: "Cloud & Tools",
-    items: [
-      "Cloud computing",
-      "Collaborative development environments",
-      "Institutional data management & reliability",
-    ],
-  },
-  {
-    category: "Soft Skills",
-    items: [
-      "Team leadership & coordination",
-      "Executive communication",
-      "Stakeholder management",
-      "Negotiation",
-      "Analytical & results-oriented mindset",
-      "Autonomy & adaptability",
-      "Distributed teamwork",
-    ],
-  },
-];
-
-export const education = [
-  {
-    degree: "Master's in Project & Program Management",
-    school: "Rabat Business School",
-    period: "Expected 2027",
-  },
-  {
-    degree: "State Engineering Degree — Data Science & Cloud Computing",
-    school: "ENSA Oujda",
-    period: "2023",
-  },
-  {
-    degree: "Baccalaureate — Mathematical Sciences, Option B",
-    school: "Rabat",
-    period: "2018",
-  },
-];
-
-export const certifications = [
-  {
-    name: "Project Management Professional (PMP)®",
-    issuer: "Project Management Institute (PMI)",
-    period: "2026",
-  },
-];
-
-export const volunteering = [
-  {
-    role: "Citizen Mentor (Volunteer)",
-    org: "Les Citoyens",
-    text: "Supported the association's data-driven citizen initiatives (public-interest censuses and studies led by civil society) and mentored teams during data hackathons and events.",
-  },
-];
-
 export const languages = [
   { name: "Arabic", level: "Native" },
   { name: "French", level: "Professional" },
@@ -242,10 +85,154 @@ export const languages = [
 ];
 
 export const gallery = [
-  { caption: "Facilitating a citizen-data workshop with Les Citoyens", gradient: "from-emerald-500 to-teal-700" },
-  { caption: "Attending a tech & innovation conference", gradient: "from-indigo-500 to-blue-700" },
-  { caption: "Exploring Rabat's Kasbah des Oudayas", gradient: "from-amber-500 to-rose-600" },
-  { caption: "Staying sharp — training discipline off the clock", gradient: "from-slate-600 to-slate-900" },
-  { caption: "Field visit around Rabat, rain or shine", gradient: "from-cyan-600 to-indigo-800" },
-  { caption: "Working session on a data project", gradient: "from-fuchsia-500 to-purple-700" },
+  { caption: "Facilitating a citizen-data workshop with Les Citoyens", gradient: "from-blue-500 to-indigo-700", src: "" },
+  { caption: "Attending a tech & innovation conference", gradient: "from-indigo-500 to-blue-700", src: "" },
+  { caption: "Exploring Rabat's Kasbah des Oudayas", gradient: "from-orange-500 to-rose-600", src: "" },
+  { caption: "Staying sharp — training discipline off the clock", gradient: "from-slate-600 to-slate-900", src: "" },
+  { caption: "Field visit around Rabat, rain or shine", gradient: "from-blue-600 to-indigo-800", src: "" },
+  { caption: "Working session on a data project", gradient: "from-orange-500 to-fuchsia-700", src: "" },
+];
+
+// Self-assessed proficiency (0-10), estimated from depth of experience described in the CV.
+export const radarSkills = [
+  { axis: "Project Mgmt", value: 8.5 },
+  { axis: "Data Science", value: 9 },
+  { axis: "Data Eng. & BI", value: 7 },
+  { axis: "Cloud & Tools", value: 6 },
+  { axis: "Leadership", value: 8 },
+];
+
+// Illustrative positioning of real projects — technical complexity vs business/institutional impact.
+// Estimated from project scope as described, not a measured metric.
+export const regressionProjects = [
+  { name: "Research Intelligence Platform", complexity: 8, impact: 9 },
+  { name: "University Rankings Program", complexity: 6, impact: 8 },
+  { name: "Arabic NER (Hugging Face)", complexity: 9, impact: 8 },
+  { name: "Tamkeen for Cities", complexity: 7, impact: 7 },
+  { name: "Inn2Market Patent Valorization", complexity: 6, impact: 7 },
+  { name: "AI-Generated AR/VR Scenes", complexity: 9, impact: 6 },
+  { name: "BI Dashboards (Sanlam)", complexity: 4, impact: 5 },
+];
+
+export type Service = {
+  index: string;
+  title: string;
+  description: string;
+  tags: string[];
+  variant?: "deliver";
+};
+
+export const services: Service[] = [
+  {
+    index: "01",
+    title: "Data & Innovation Project Leadership",
+    description:
+      "End-to-end ownership under PMI/PMP standards — scoping, planning, risk, budget, and stakeholder management, from first requirement to institutional adoption.",
+    tags: ["PMP®", "Scoping", "Stakeholders"],
+  },
+  {
+    index: "02",
+    title: "Data Platforms & Systems",
+    description:
+      "Replacing scattered spreadsheets and paper trails with structured, single-source-of-truth platforms that become the tool people actually rely on daily.",
+    tags: ["Platform design", "Data modeling", "Adoption"],
+  },
+  {
+    index: "03",
+    title: "Machine Learning & NLP",
+    description:
+      "Production-grade models built to answer a real question — including an Arabic NER model published on Hugging Face with 50,000+ downloads.",
+    tags: ["Python", "NLP", "Model deployment"],
+  },
+  {
+    index: "04",
+    title: "BI & Data Engineering",
+    description:
+      "Pipelines, ETL, and dashboards that turn raw, unstructured data into decision-ready reporting your team can trust and act on.",
+    tags: ["SQL", "ETL", "Tableau"],
+  },
+  {
+    index: "05",
+    title: "Stakeholder Coordination & Negotiation",
+    description:
+      "Running cross-institutional programs — from university-wide ranking submissions to database-renewal negotiations backed by usage-data analysis.",
+    tags: ["Negotiation", "Cross-team", "Institutional"],
+  },
+  {
+    index: "06",
+    title: "Digital Workflow Transformation",
+    description:
+      "Turning manual, paper-based processes — patent valorization, city labeling programs — into structured, scalable digital workflows.",
+    tags: ["Process design", "Automation", "Scalability"],
+    variant: "deliver",
+  },
+];
+
+export type TimelineItem = {
+  year: string;
+  title: string;
+  org: string;
+  description: string;
+  kind: "role" | "education" | "certification" | "volunteering";
+  current?: boolean;
+};
+
+export const timeline: TimelineItem[] = [
+  {
+    year: "2026",
+    title: "PMP® Certification",
+    org: "Project Management Institute (PMI)",
+    description: "Formalized how projects are scoped, planned, and delivered — bringing structured PM discipline into every data engagement.",
+    kind: "certification",
+  },
+  {
+    year: "Dec. 2023 — Present",
+    title: "Digital Research & Development Engineer",
+    org: "International University of Rabat (UIR)",
+    description: "Leading data platforms, ranking programs, and digital workflow transformation for the Vice-Presidency for Research, Development, Innovation & Partnerships.",
+    kind: "role",
+    current: true,
+  },
+  {
+    year: "Expected 2027",
+    title: "Master's in Project & Program Management",
+    org: "Rabat Business School",
+    description: "Ongoing graduate studies deepening formal project and program management practice alongside full-time work.",
+    kind: "education",
+  },
+  {
+    year: "2023 (~5 months)",
+    title: "AI / ML Engineer (Remote)",
+    org: "Niloom (formerly abxr) — New York, USA",
+    description: "Led development of an AI assistant generating AR/VR scenes and 3D assets from scratch, within a distributed engineering team.",
+    kind: "role",
+  },
+  {
+    year: "2023",
+    title: "State Engineering Degree — Data Science & Cloud Computing",
+    org: "ENSA Oujda",
+    description: "Engineering degree specializing in data science and cloud computing.",
+    kind: "education",
+  },
+  {
+    year: "2022",
+    title: "Business Intelligence Engineer",
+    org: "Sanlam Data Factory — Casablanca, Morocco",
+    description: "Designed financial and accounting dashboards in Tableau, turning raw data into decision-ready reporting.",
+    kind: "role",
+  },
+  {
+    year: "Ongoing",
+    title: "Citizen Mentor (Volunteer)",
+    org: "Les Citoyens",
+    description: "Supporting data-driven citizen initiatives and mentoring teams during data hackathons.",
+    kind: "volunteering",
+  },
+  {
+    year: "2018",
+    title: "Baccalaureate — Mathematical Sciences, Option B",
+    org: "Rabat",
+    description: "Foundation in mathematics that set the direction toward engineering and data science.",
+    kind: "education",
+  },
 ];

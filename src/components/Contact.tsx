@@ -1,5 +1,4 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-import Reveal from "./Reveal";
 import SectionHeading from "./SectionHeading";
 import { profile } from "@/data/portfolio";
 
@@ -20,7 +19,7 @@ export default function Contact() {
         />
 
         <div className="grid gap-4 sm:grid-cols-3">
-          {cards.map((c, i) => {
+          {cards.map((c) => {
             const Icon = c.icon;
             const content = (
               <div className="card flex h-full flex-col items-start gap-3 p-6 transition-transform hover:-translate-y-1">
@@ -38,15 +37,11 @@ export default function Contact() {
                 </div>
               </div>
             );
-            return (
-              <Reveal key={c.label} delay={i * 0.08}>
-                {c.href ? <a href={c.href}>{content}</a> : content}
-              </Reveal>
-            );
+            return <div key={c.label}>{c.href ? <a href={c.href}>{content}</a> : content}</div>;
           })}
         </div>
 
-        <Reveal delay={0.2} className="mt-10 text-center">
+        <div className="mt-10 text-center">
           <a
             href={`mailto:${profile.email}`}
             className="inline-flex rounded-full px-8 py-3.5 text-sm font-semibold text-white transition-transform hover:scale-105"
@@ -54,7 +49,7 @@ export default function Contact() {
           >
             Send me an email
           </a>
-        </Reveal>
+        </div>
       </div>
     </section>
   );
