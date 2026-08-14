@@ -3,10 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Artistic Side — Yahya Mdarhri · Oud &amp; Music-Tech</title>
+<title>Artistic Side · Yahya Mdarhri · Oud &amp; Music-Tech</title>
 <meta name="description" content="Yahya Mdarhri playing the oud, and the SaaS he built that turns oriental songs into playable musical notation.">
+<link rel="canonical" href="https://yahyamdarhri.com/music.html">
+<meta property="og:url" content="https://yahyamdarhri.com/music.html">
+<meta property="og:image" content="https://yahyamdarhri.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Artistic Side — Yahya Mdarhri">
+<meta property="og:title" content="Artistic Side · Yahya Mdarhri">
 <meta property="og:description" content="Oud player and creator of a SaaS that turns oriental melodies into playable sheet music.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,9 +28,9 @@
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="career.html">Career</a>
-      <a href="projects.html">Projects</a>
-      <a href="music.html" class="active">Music</a>
+      <a href="vision.html">Vision</a>
       <a href="offer.html">Offer</a>
+      <a href="music.html" class="active">Music</a>
       <a href="contact.html">Contact</a>
     </div>
     <div class="nav-right">
@@ -35,8 +41,8 @@
         </button>
         <div class="cv-menu" role="menu">
           <div class="cv-menu-label">Download CV</div>
-          <a href="assets/CV_Yahya_Mdarhri_EN.pdf" download role="menuitem">English <span class="flag">EN · PDF</span></a>
-          <a href="assets/CV_Yahya_Mdarhri_FR.pdf" download role="menuitem">Français <span class="flag">FR · PDF</span></a>
+          <a href="CV_Yahya_Mdarhri_EN.pdf" download role="menuitem">English <span class="flag">EN · PDF</span></a>
+          <a href="CV_Yahya_Mdarhri_FR.pdf" download role="menuitem">Français <span class="flag">FR · PDF</span></a>
         </div>
       </div>
       <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
@@ -51,9 +57,9 @@
       <div class="sec-head" style="margin-bottom:0;">
         <div class="eyebrow">Music</div>
         <h2 style="font-size:clamp(34px,5vw,54px); max-width:14ch;">I play the <span style="color:var(--clay); font-style:italic;">oud</span>.</h2>
-        <p>The fretless heart of Arabic and Andalusian music — where I think in a different language of quarter-tones, improvisation, and feel. And, being who I am, I couldn't resist pointing my other skill set right at it.</p>
+        <p>The fretless lute of Arabic and Andalusian music, built around quarter-tones and improvisation rather than fixed frets. I've played for years, and eventually built a tool around it: a SaaS that transcribes oriental songs into sheet music, shown below.</p>
       </div>
-      <div class="photo-card tall"><img src="assets/photo-portrait.jpg" alt="Yahya Mdarhri"></div>
+      <div class="photo-card tall"><img src="6.jpeg" style="object-position:50% 45%;" alt="A traditional oud, the fretless lute of Arabic and Andalusian music" width="384" height="520" decoding="async" loading="lazy"></div>
     </div>
   </div>
 </header>
@@ -64,15 +70,18 @@
     <div class="sec-head reveal" style="margin-bottom:24px;">
       <div class="eyebrow">Watch</div>
       <h2>Me, playing.</h2>
-      <p>A short performance — hearing the oud says more than any paragraph can.</p>
+      <p>A short performance. Hearing the oud says more than any paragraph can.</p>
     </div>
-    <!-- Replace this placeholder with your video embed (see README):
-         e.g. <video controls poster="assets/oud-poster.jpg"><source src="assets/oud-performance.mp4" type="video/mp4"></video>
-         or a YouTube <iframe>. -->
-    <div class="video-ph reveal" role="img" aria-label="Video of Yahya playing the oud — coming soon">
+    <!-- TODO (Yahya): drop the recording in and replace this whole block with either
+           <video class="oud-video" controls preload="metadata" poster="oud-poster.jpg">
+             <source src="oud-performance.mp4" type="video/mp4">
+           </video>
+         or a YouTube <iframe class="oud-video" ... allowfullscreen></iframe>.
+         Styles for .oud-video are already in style.css. -->
+    <div class="video-ph reveal" role="img" aria-label="A recording of Yahya playing the oud is coming soon">
       <span class="vtop">◆ Oud performance</span>
       <span class="play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-      <span class="vcap">your performance video goes here</span>
+      <span class="vcap">recording coming soon</span>
     </div>
   </div>
 </section>
@@ -83,18 +92,20 @@
     <div class="sec-head reveal">
       <div class="eyebrow">The project</div>
       <h2>Oriental songs → sheet music</h2>
-      <p>A SaaS I built to solve a problem every oud student knows: the songs we love mostly live in recordings and oral tradition — not on paper. So I made a tool that listens, and writes it down.</p>
+      <p>A tool that solves a problem most oud students run into: oriental songs mostly exist in recordings and oral tradition, not on paper. It listens to a recording and writes it down.</p>
     </div>
 
     <div class="saas-hero reveal">
       <div>
         <span class="saas-badge">◆ Music-tech · my own build</span>
         <h3 style="margin-top:16px;">From a melody you hum<br>to a partition you can play.</h3>
-        <p>Oriental music is famously hard to notate — the maqam system uses microtones that standard Western notation glosses over. My SaaS takes an oriental song and transcribes it into readable musical notation, so learners can actually <b>sit down with their oud and play it</b>, instead of rewinding a recording a hundred times by ear.</p>
-        <p>It's the clearest expression of who I am: a musician's problem, solved with a data scientist's tools.</p>
-        <div style="margin-top:22px; display:flex; gap:12px; flex-wrap:wrap;">
-          <a href="{{SAAS_LIVE_URL}}" class="btn btn-gold">Try the tool →</a>
-          <a href="{{SAAS_REPO_OR_DEMO_URL}}" class="btn btn-ghost">Watch a demo</a>
+        <p>Oriental music is hard to notate: the maqam system uses microtones that standard Western notation doesn't represent well. This tool takes an oriental song and transcribes it into readable musical notation, so learners can <b>sit down with their oud and play it</b> instead of learning it by ear from a recording.</p>
+        <!-- When the tool is live, swap this note back out for the two buttons:
+             <a href="URL" class="btn btn-gold">Try the tool →</a>
+             <a href="URL" class="btn btn-ghost">Watch a demo</a>  -->
+        <div class="wip">
+          <span class="wip-dot"></span>
+          <span>In active development. <a href="contact.html">Ask me for a walkthrough</a> and I'll show you where it's at.</span>
         </div>
       </div>
       <div class="saas-visual">
@@ -131,8 +142,8 @@
   <div class="wrap">
     <div style="max-width:720px;">
       <div class="eyebrow reveal">Why it matters to me</div>
-      <blockquote class="oud-quote reveal">Improvising on the oud and scoping a project use the same muscle: listen closely, feel the structure, then build.</blockquote>
-      <p class="reveal" style="color:var(--ink-soft); font-size:17px; margin-top:18px; max-width:60ch;">Music keeps me curious and patient — two things that make me better at the day job. And the day job gives music new possibilities. I like living at that intersection, and I think it shows in how I work with people.</p>
+      <blockquote class="oud-quote reveal">Both come down to the same practice: listen closely, find the structure, then build.</blockquote>
+      <p class="reveal" style="color:var(--ink-soft); font-size:17px; margin-top:18px; max-width:60ch;">It keeps me patient and used to iterating by ear, which carries over to work. And the day job gave me the tools to build something for it.</p>
     </div>
   </div>
 </section>
@@ -140,10 +151,10 @@
 <!-- CTA -->
 <section class="sec cta">
   <div class="wrap">
-    <div class="eyebrow center">Same person, both sides</div>
-    <h2>Curious where art meets <span class="gold">algorithms?</span></h2>
-    <p>Whether it's a data project or a music-tech idea, I'd love to hear it. Come say hello.</p>
-    <a href="contact.html" class="btn btn-primary">Let's talk →</a>
+    <div class="eyebrow center">Contact</div>
+    <h2>Data project or music idea. Either works.</h2>
+    <p>Both are welcome in my inbox.</p>
+    <a href="contact.html" class="btn btn-primary">Get in touch →</a>
   </div>
 </section>
 
@@ -153,16 +164,16 @@
     <div class="footer-top">
       <div>
         <a href="index.html" class="brand"><span class="mono-mark">YM</span><span>Yahya <span class="accent">Mdarhri</span></span></a>
-        <p class="tag">Data Project Manager, Data Scientist &amp; PMP® — turning scattered data into decisions.</p>
+        <p class="tag">Data Project Manager, Data Scientist &amp; PMP®. Turning scattered data into decisions.</p>
       </div>
       <div class="footer-cols">
         <div class="fcol">
           <h5>Explore</h5>
           <a href="index.html">Home</a>
           <a href="career.html">Career path</a>
-          <a href="projects.html">Selected projects</a>
-          <a href="music.html">Music</a>
+          <a href="vision.html">Where I'm headed</a>
           <a href="offer.html">What I offer</a>
+          <a href="music.html">Music</a>
           <a href="contact.html">Contact</a>
         </div>
         <div class="fcol">
@@ -173,9 +184,9 @@
         </div>
         <div class="fcol">
           <h5>Elsewhere</h5>
-          <a href="{{LINKEDIN_URL}}">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/yahya-mdarhri-8309b41a1/" target="_blank" rel="noopener">LinkedIn</a>
           <a href="{{GITHUB_URL}}">GitHub</a>
-          <a href="https://huggingface.co/mdarhri00">Hugging Face</a>
+          <a href="https://huggingface.co/mdarhri00" target="_blank" rel="noopener">Hugging Face</a>
         </div>
       </div>
     </div>
