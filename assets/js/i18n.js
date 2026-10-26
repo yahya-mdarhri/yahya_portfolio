@@ -20,6 +20,7 @@ window.I18N = {
     'nav.journey': 'Parcours',
     'nav.oud': 'Oud',
     'nav.gallery': 'Galerie',
+    'nav.uir': 'Gouvernance',
     'nav.contact': 'Contact',
     'nav.cv': 'Télécharger le CV',
 
@@ -186,6 +187,7 @@ window.I18N = {
     'nav.journey': 'المسار',
     'nav.oud': 'العود',
     'nav.gallery': 'الصور',
+    'nav.uir': 'الحوكمة',
     'nav.contact': 'تواصل',
     'nav.cv': 'تحميل السيرة الذاتية',
 
