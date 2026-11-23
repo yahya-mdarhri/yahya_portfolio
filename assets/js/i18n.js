@@ -162,6 +162,8 @@ window.I18N = {
     'field.f': 'Une soirée sous la pluie, Paris',
     'field.g': 'Sur le stand Recherche &amp; Développement, Centre d’Innovation et d’Entrepreneuriat de l’UIR',
     'field.h': 'Représenter l’UIR lors d’une réunion de la Région Dakhla-Oued Eddahab',
+    'field.k': 'L’UIR classée 72e au THE Arab University Rankings 2027, lors du THE Arab Universities Summit, Ben Guerir',
+    'field.l': 'Pause café',
     'field.j': 'Bootcamp des enfants parlementaires avec l’Observatoire National des Droits de l’Enfant, UIR',
 
     'oud.label': '07 / TEMPS LIBRE',
@@ -329,6 +331,8 @@ window.I18N = {
     'field.f': 'أمسية ممطرة في باريس',
     'field.g': 'في جناح البحث والتطوير، مركز الابتكار وريادة الأعمال بالجامعة الدولية للرباط',
     'field.h': 'تمثيل الجامعة الدولية للرباط في اجتماع بجهة الداخلة وادي الذهب',
+    'field.k': 'الجامعة الدولية للرباط في المرتبة 72 في تصنيف THE للجامعات العربية 2027، خلال قمة THE للجامعات العربية، بن جرير',
+    'field.l': 'استراحة قهوة',
     'field.j': 'معسكر الأطفال البرلمانيين مع المرصد الوطني لحقوق الطفل، الجامعة الدولية للرباط',
 
     'oud.label': '07 / وقت الفراغ',
