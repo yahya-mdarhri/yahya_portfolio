@@ -161,7 +161,7 @@ window.I18N = {
     'field.e': 'Le Clásico au Bernabéu, en supporter du Barça',
     'field.f': 'Une soirée sous la pluie, Paris',
     'field.g': 'Sur le stand Recherche &amp; Développement, Centre d’Innovation et d’Entrepreneuriat de l’UIR',
-    'field.h': 'Représenter l’UIR lors d’une réunion de la Région Dakhla-Oued Eddahab',
+    'field.l': 'Pause café',
     'field.k': 'L’UIR classée 72e au THE Arab University Rankings 2027, lors du THE Arab Universities Summit, Ben Guerir',
     'field.j': 'Bootcamp des enfants parlementaires avec l’Observatoire National des Droits de l’Enfant, UIR',
 
@@ -329,7 +329,7 @@ window.I18N = {
     'field.e': 'الكلاسيكو في ملعب البرنابيو، كمشجّع لبرشلونة',
     'field.f': 'أمسية ممطرة في باريس',
     'field.g': 'في جناح البحث والتطوير، مركز الابتكار وريادة الأعمال بالجامعة الدولية للرباط',
-    'field.h': 'تمثيل الجامعة الدولية للرباط في اجتماع بجهة الداخلة وادي الذهب',
+    'field.l': 'استراحة قهوة',
     'field.k': 'الجامعة الدولية للرباط في المرتبة 72 في تصنيف THE للجامعات العربية 2027، خلال قمة THE للجامعات العربية، بن جرير',
     'field.j': 'معسكر الأطفال البرلمانيين مع المرصد الوطني لحقوق الطفل، الجامعة الدولية للرباط',
 
